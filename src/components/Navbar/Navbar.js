@@ -1,12 +1,13 @@
 import { Link } from 'react-router-dom';
 const Navbar = () => {
+    const logo = 'http://www.hindigraphics.in/wp-content/uploads/2019/01/pro.png';
     return (
         <nav className="bg-gray-100 p-4">
             <div className="container mx-auto">
                 <div className="flex items-center justify-between">
                     <div className="text-white font-bold text-xl">
                         <a href="https://promilo.com/public/home">
-                            <img src="http://www.hindigraphics.in/wp-content/uploads/2019/01/pro.png" alt="log" className="h-14 w-16" />
+                            <img src={logo} alt="logo" className="h-14 w-16" />
                         </a>
                     </div>
                     <div className="flex items-center space-x-8">
