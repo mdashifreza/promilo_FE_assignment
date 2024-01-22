@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Provision Store E-shop Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Provision Store is a virtual provision marketplace where users can buy various types of provision products. This E-shop website 
+includes a login module, an about page, and a product list page.
 
-## Available Scripts
+# Live Project
 
-In the project directory, you can run:
+Welcome to the live project! You can experience the Provision Store E-shop website by following the link below:
 
-### `npm start`
+🌐 [Live Project](https://promilo-fe-assignment.vercel.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Flow
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. When the user opens the website, a login page appears first.
+2. After successful login, the user can access the product list page where all products are displayed.
+3. From the product list, the user can navigate to the About page.
+4. The website features a logo in the favicon and header.
 
-### `npm test`
+## Login Module
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Users can log in with their email and password.
+- Email field has email validation.
+- Password field has validation criteria: 8 characters long, at least one capital letter, one small letter, numbers allowed, and one special character.
+- Password is converted into sha256 format before calling the Login API.
 
-### `npm run build`
+## Product List Module
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Includes a search filter and displays products as cards.
+- Cards show product name and image using Angular Material.
+- Search filter works based on product name.
